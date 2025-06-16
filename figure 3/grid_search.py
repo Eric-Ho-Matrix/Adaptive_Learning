@@ -20,8 +20,6 @@ from scipy.stats import norm
 import numpy as np
 import os
 
-np.random.seed(9)
-
 # get the human data
 human_data = np.genfromtxt('data2014.csv', delimiter=',')
 human_data = np.delete(human_data, (0), axis=0)
